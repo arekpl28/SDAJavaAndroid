@@ -11,7 +11,7 @@ public class Main {
         Sort insertSort = new InsertSort();
 
         int[] tab = new int[]{231, 3421, 1, 21, 4,};
-        SortFacada sort = new SortFacada();
+        SortFacade sort = new SortFacade();
         int [] result = sort.sortThroughFacade(tab);
         System.out.println(Arrays.toString(result));
     }
